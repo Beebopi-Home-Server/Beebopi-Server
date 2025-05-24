@@ -1,0 +1,11 @@
+name: bebopi_server
+
+services:
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/home-page:/usr/share/nginx/html
+    ports:
+      - "80:80"
+
