@@ -5,7 +5,16 @@ services:
     image: nginx:latest
     volumes:
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-      - ./nginx/home-page:/usr/share/nginx/html
+      - ./html:/usr/share/nginx/html
     ports:
       - "80:80"
 
+  mosquitto:
+    image: eclipse-mosquitto:2.0.20
+    network_mode: "host"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    ports:
+      - "1883:1883"
