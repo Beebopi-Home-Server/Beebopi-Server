@@ -1,2 +1,2 @@
-# Bebop-Server
+# Beebopi-Server
 Home Server da Raspberry Beebopi
