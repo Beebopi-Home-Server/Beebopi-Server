@@ -5,7 +5,7 @@ sudo git clone --recurse-submodules \
     /opt/Beebopi-Server
 
 # Dá permissão de execução aos scripts do Beebopi
-cp /opt/Beebopi-Server
+cd /opt/Beebopi-Server
 sudo chmod +x ./scripts/*
 
 # Instala o master_mind
