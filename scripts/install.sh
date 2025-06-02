@@ -6,7 +6,7 @@ sudo git clone --recurse-submodules \
 
 # Instala o master_mind
 cd /opt
-ln -s Beebopi-Server/services/master_mind .
+sudo ln -s Beebopi-Server/services/master_mind .
 cd /opt/master_mind
 sudo chmod +x ./scripts/install.sh
 ./scripts/install.sh
