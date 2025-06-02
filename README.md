@@ -4,7 +4,7 @@ Home Server da Raspberry Beebopi
 # Instalação
 
 ```
-curl -sSL https://exemplo.com/meu-script.sh | bash
+curl -sSL https://raw.githubusercontent.com/Beebopi-Home-Server/Beebopi-Server/refs/heads/main/scripts/install.sh | bash
 ```
 
 
