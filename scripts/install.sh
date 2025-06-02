@@ -13,4 +13,4 @@ sudo chmod +x /opt/master_mind/scripts/install.sh
 /opt/master_mind/scripts/install.sh
 
 # Inicia o server
-/opt/Beebopi-Server/start.sh
+/opt/Beebopi-Server/scripts/start.sh
