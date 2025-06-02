@@ -1,5 +1,5 @@
 #!/bin/bash
 
-git pull
+sudo git pull
 docker compose restart
 
