@@ -1,0 +1,6 @@
+[submodule "services/leituras"]
+	path = services/leituras
+	url = https://github.com/Beebopi-Home-Server/leituras
+[submodule "services/master_mind"]
+	path = services/master_mind
+	url = https://github.com/Beebopi-Home-Server/master_mind
